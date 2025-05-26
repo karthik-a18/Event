@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #004D40; /* dark teal */
+}
+
+.event-container {
+  border-left: 8px solid #004D40; /* teal */
+  background-color: #fafafa;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+.event-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #004D40; /* dark teal */
+}
+
+.event-details,
+.event-recurrence {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #009688; /* teal */
+  border-color: #00796B;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #00796B;
+  border-color: #004D40;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #FF5722; /* orange */
+  border-color: #E64A19;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #E64A19;
+  border-color: #BF360C;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #D32F2F; /* crimson */
+  border-color: #B71C1C;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #B71C1C;
+  border-color: #7F0000;
+  color: white;
+}
+
+/* Modal background */
+.modal-content {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* FullCalendar event color override (optional if you want consistent purple) */
+.fc-event {
+  background-color: #00796B !important;
+  border-color: #004D40 !important;
+  color: white !important;
+}
+
+/* Form color input styling */
+.form-control-color {
+  height: 40px;
+  width: 60px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Scrollbar styling for event list */
+.container::-webkit-scrollbar {
+  width: 8px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #009688;
+  border-radius: 4px;
+}
