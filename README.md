@@ -1,4 +1,4 @@
-Event Calendar
+# Event Calender
 
 A React application featuring a full-featured calendar with event creation, editing, deletion, drag-and-drop rescheduling, and custom recurrence options. Events are stored and managed through a backend API.
 
@@ -38,6 +38,3 @@ Dependencies
 •	FullCalendar plugins: daygrid, timegrid, interaction
 •	Axios for API calls
 •	Bootstrap 5 for styling
-
-
-# Event
